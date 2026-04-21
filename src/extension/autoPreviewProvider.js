@@ -99,7 +99,7 @@ class AutoPreviewProvider {
         
         // Get path to the field image
         const fieldImagePath = vscode.Uri.file(
-            path.join(this.context.extensionPath, 'src', 'webviews', 'media', 'field.png')
+            path.join(this.context.extensionPath, 'src', 'webviews', 'media', 'Field_26.png')
         );
         const fieldImageUri = webview.asWebviewUri(fieldImagePath);
 
